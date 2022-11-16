@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<h2>TC - Sapiens_New Policy Creation (ID - 002) - Ends( Iteration - 8)</h2>]]>
+    </line>
+  </reporter-output>
+  <suite name="HOC Claim Regression" duration-ms="327732" started-at="2022-08-16T07:24:47Z" finished-at="2022-08-16T07:30:15Z">
+    <groups>
+    </groups>
+    <test name="HOC_CLAIM_Chrome" duration-ms="327732" started-at="2022-08-16T07:24:47Z" finished-at="2022-08-16T07:30:15Z">
+      <class name="testCases.Driver">
+        <test-method status="PASS" signature="mainDriver(java.lang.String)[pri:0, instance:Thread[Thread-2,5,main]]" name="mainDriver" duration-ms="327711" started-at="2022-08-16T12:54:47Z" finished-at="2022-08-16T13:00:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h2>TC - Sapiens_New Policy Creation (ID - 002) - Ends( Iteration - 8)</h2>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mainDriver -->
+      </class> <!-- testCases.Driver -->
+    </test> <!-- HOC_CLAIM_Chrome -->
+  </suite> <!-- HOC Claim Regression -->
+</testng-results>

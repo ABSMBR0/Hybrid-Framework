@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HOC Claim Regression"  parallel="tests" thread-count="3" verbose="1">
+
+	<!-- <test name="HOC_CLAIM_Chrome_Firefox">
+		<parameter name="Browser" value="Firefox_HeadLess">
+			<classes>
+				<class name="testCases.Driver">
+				</class>
+			</classes>
+		</parameter>
+	</test>  -->
+
+	<test name="HOC_CLAIM_Chrome">
+		<parameter name="Browser" value="Chrome">
+			<classes>
+				<class name="testCases.Driver">
+				</class>
+			</classes>
+		</parameter>
+	</test>
+
+
+</suite>
